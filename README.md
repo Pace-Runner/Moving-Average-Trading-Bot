@@ -54,7 +54,7 @@ The news filter doesn’t work during backtests (MetaTrader limitation), so it w
 Also, be careful trusting backtests using poor-quality data — I’ve seen bots that look amazing in long-term backtests but completely fall apart in real trading. Reliable tick data makes a huge difference.
 Results
 
-Here are the results for each symbol using the settings above:
+Here are the results for each symbol using the settings above:  
 GOLD Results:
     ![image](https://github.com/user-attachments/assets/43bea8d0-3bb8-460b-9f47-6e7eae6b6bf7)
 BITCOIN Results:
