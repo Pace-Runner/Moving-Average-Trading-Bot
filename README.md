@@ -28,13 +28,14 @@ Suggested Settings
 These are the settings I’ve had the most success with during testing.
 GOLD:
 ![image](https://github.com/user-attachments/assets/cbb1beaf-f735-42bc-b0b7-1848b3d05b4f)
-BITCOIN:
 
-    ![image](https://github.com/user-attachments/assets/620561ea-cbf9-42cf-985b-fc2c5db42de9)
+
+BITCOIN:
+![image](https://github.com/user-attachments/assets/620561ea-cbf9-42cf-985b-fc2c5db42de9)
+
 
 NAS100:
-
-    ![image](https://github.com/user-attachments/assets/69913638-bb94-4f5a-91ac-df27ee5a5d03)
+![image](https://github.com/user-attachments/assets/69913638-bb94-4f5a-91ac-df27ee5a5d03)
 
 
 Feel free to tweak these — markets change, and different conditions call for different setups.
