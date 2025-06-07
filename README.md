@@ -1,5 +1,5 @@
 
-Moving Average Trading Bot
+Moving Average Trading Bot   
 
 This EA is intentionally limited to strategy tester use only for demonstration purposes.
 This is a 3 moving average trading bot for MetaTrader 5 that uses top-down analysis across multiple timeframes. It also includes a built-in news filter to avoid trading during unpredictable or high-impact events.
@@ -25,15 +25,11 @@ The bot uses:
 
 Suggested Settings
 
-These are the settings I’ve had the most success with during testing.  
+These are the settings I’ve had the most success with during testing.    
 GOLD:  
 ![image](https://github.com/user-attachments/assets/cbb1beaf-f735-42bc-b0b7-1848b3d05b4f)
-
-
 BITCOIN:  
 ![image](https://github.com/user-attachments/assets/620561ea-cbf9-42cf-985b-fc2c5db42de9)
-
-
 NAS100:  
 ![image](https://github.com/user-attachments/assets/69913638-bb94-4f5a-91ac-df27ee5a5d03)
 
