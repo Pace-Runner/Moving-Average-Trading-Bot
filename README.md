@@ -45,8 +45,6 @@ This bot includes a built-in feature to automatically calculate lot size based o
 
     Leverage Used: 1:200 to 1:500
 
-    💡 You don’t need high leverage, and in fact lower is often safer — especially with volatile assets like Gold and Bitcoin.
-
 That said, having more than $500 in the account is better in general — especially since instruments like Gold and BTC can be expensive to trade.
 Backtest Info
 
