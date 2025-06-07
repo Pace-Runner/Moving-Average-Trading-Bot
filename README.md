@@ -1,66 +1,68 @@
-# Moving-Average-Trading-Bot
 
-A 3 moving average trading bot with top down analysis operating on multiple time frames and includes a news filter to filter out unpredictable market conditions. There are 3 primary symbols I would recommend this metatrader5 EA for:
-GOLD
-BITCOIN
-NAS100
+Moving Average Trading Bot
 
-You can use any settings you find most apropriate for your trading style and current situation and conditions, although I have found the best settings so far to be as folllows:
+This is a 3 moving average trading bot for MetaTrader 5 that uses top-down analysis across multiple timeframes. It also includes a built-in news filter to avoid trading during unpredictable or high-impact events.
 
-GOLD:
-![image](https://github.com/user-attachments/assets/cbb1beaf-f735-42bc-b0b7-1848b3d05b4f)
-
-BITCOIN:
-![image](https://github.com/user-attachments/assets/620561ea-cbf9-42cf-985b-fc2c5db42de9)
-
-NAS100:
-![image](https://github.com/user-attachments/assets/69913638-bb94-4f5a-91ac-df27ee5a5d03)
-
-Now, as for the results there are a few important points to not beforehand. I have started the account off with 500 dollars and a leverage of 200/500 as this is what I believe most people would be comfortable starting off with. Note that the leverage chosen does not imcrease your risk so long as you are using the built in feature I have added that actumatically calculates lot size based of the persentage of your balance you are prepared to risk per trade(so a ligher leverage would probibly be better). Although I have started the account with 500 dollars, more would be better , as Gold and Bitcoin are particularly expensive to buy. I am using 3 months ( 2025/02/05 - 2025/05/05) of past data with 100% accurate real tick historical data, meaning results are very accurate. It is possible to preform a longer backtest but results will not be accurate and it is very important to not that historical data that is not 100% accurate scews results vastly. I have created bots that return millions with unbelievable results based on a backtest but preform horribly in real life conditions, this is why it is important to use historical data that is 100% accurate based on real ticks. It is also not possible for the news filter to work during backtests so for these results the news filter is set to false.
-
-As for the results:
-
-Gold:
-![image](https://github.com/user-attachments/assets/43bea8d0-3bb8-460b-9f47-6e7eae6b6bf7)
-
-BITCOIN:
-![image](https://github.com/user-attachments/assets/c68ce220-5c94-44b6-a26a-9fbae5098cf7)
-
-NAS100:
-![image](https://github.com/user-attachments/assets/bf329624-4d04-46cc-9c6c-f4f3779dd036)
-
-Recommended Symbols
-
-This bot has been tested and optimized for the following instruments:
+I built this bot mainly for three symbols that I've found it works best with:
 
     GOLD (XAUUSD)
 
     BITCOIN (BTCUSD)
 
-    NAS100 (Nasdaq 100 index)
+    NAS100 (Nasdaq 100 Index)
 
-Strategy Overview
+You can adjust the settings however you like depending on your trading style or the current market conditions, but I’ve found some settings that work especially well, which I’ll share below.
+Strategy Breakdown
 
-The bot uses a combination of:
+The bot uses:
 
-    Three moving averages to identify short-, medium-, and long-term trends.
+    A 3 moving average setup to catch trend changes and confirm momentum
 
-    Top-down analysis, evaluating multiple timeframes to improve signal quality.
+    Multi-timeframe (top-down) analysis to avoid false signals
 
-    News filtering, which disables trading during major news events (only functional in live/forward testing).
+    A news filter (optional) to skip trades around big economic releases
 
-Users can freely customize the strategy's parameters to suit their individual trading style, risk appetite, or market conditions.
-Optimal Settings (Based on My Testing)
+Suggested Settings
 
-These are the most effective settings found during 3 months of rigorous backtesting (from 2025-02-05 to 2025-05-05) using 100% accurate real tick data:
+These are the settings I’ve had the most success with during testing.
 GOLD:
-
-  ![image](https://github.com/user-attachments/assets/43bea8d0-3bb8-460b-9f47-6e7eae6b6bf7)
-
+    ![image](https://github.com/user-attachments/assets/cbb1beaf-f735-42bc-b0b7-1848b3d05b4f)
+Gold Settings
 BITCOIN:
-
-  ![image](https://github.com/user-attachments/assets/c68ce220-5c94-44b6-a26a-9fbae5098cf7)
-
+    ![image](https://github.com/user-attachments/assets/620561ea-cbf9-42cf-985b-fc2c5db42de9)
+Bitcoin Settings
 NAS100:
+    ![image](https://github.com/user-attachments/assets/69913638-bb94-4f5a-91ac-df27ee5a5d03)
+NAS100 Settings
 
-  ![image](https://github.com/user-attachments/assets/bf329624-4d04-46cc-9c6c-f4f3779dd036)  
+Feel free to tweak these — markets change, and different conditions call for different setups.
+Risk Management
+
+This bot includes a built-in feature to automatically calculate lot size based on how much of your balance you want to risk per trade. So even though I used leverage between 1:200 and 1:500, your actual risk stays consistent as long as that feature is enabled.
+
+    Starting Balance: $500
+
+    Leverage Used: 1:200 to 1:500
+
+    💡 You don’t need high leverage, and in fact lower is often safer — especially with volatile assets like Gold and Bitcoin.
+
+That said, having more than $500 in the account is better in general — especially since instruments like Gold and BTC can be expensive to trade.
+Backtest Info
+
+I ran all the backtests using 100% accurate tick data from 2025-02-05 to 2025-05-05, so the results should be extremely close to real-life performance.
+
+⚠️ Just a heads-up:
+The news filter doesn’t work during backtests (MetaTrader limitation), so it was disabled during these tests. I still recommend using it in live trading.
+
+Also, be careful trusting backtests using poor-quality data — I’ve seen bots that look amazing in long-term backtests but completely fall apart in real trading. Reliable tick data makes a huge difference.
+Results
+
+Here are the results for each symbol using the settings above:
+GOLD:
+    ![image](https://github.com/user-attachments/assets/43bea8d0-3bb8-460b-9f47-6e7eae6b6bf7)
+Gold Results
+BITCOIN:
+    ![image](https://github.com/user-attachments/assets/c68ce220-5c94-44b6-a26a-9fbae5098cf7)
+Bitcoin Results
+NAS100:
+    ![image](https://github.com/user-attachments/assets/bf329624-4d04-46cc-9c6c-f4f3779dd036)
