@@ -1,6 +1,7 @@
 
 Moving Average Trading Bot
 
+This EA is intentionally limited to strategy tester use only for demonstration purposes.
 This is a 3 moving average trading bot for MetaTrader 5 that uses top-down analysis across multiple timeframes. It also includes a built-in news filter to avoid trading during unpredictable or high-impact events.
 
 I built this bot mainly for three symbols that I've found it works best with:
@@ -27,13 +28,13 @@ Suggested Settings
 These are the settings I’ve had the most success with during testing.
 GOLD:
     ![image](https://github.com/user-attachments/assets/cbb1beaf-f735-42bc-b0b7-1848b3d05b4f)
-Gold Settings
+
 BITCOIN:
     ![image](https://github.com/user-attachments/assets/620561ea-cbf9-42cf-985b-fc2c5db42de9)
-Bitcoin Settings
+
 NAS100:
     ![image](https://github.com/user-attachments/assets/69913638-bb94-4f5a-91ac-df27ee5a5d03)
-NAS100 Settings
+
 
 Feel free to tweak these — markets change, and different conditions call for different setups.
 Risk Management
@@ -52,17 +53,15 @@ Backtest Info
 I ran all the backtests using 100% accurate tick data from 2025-02-05 to 2025-05-05, so the results should be extremely close to real-life performance.
 
 ⚠️ Just a heads-up:
-The news filter doesn’t work during backtests (MetaTrader limitation), so it was disabled during these tests. I still recommend using it in live trading.
+The news filter doesn’t work during backtests (MetaTrader limitation), so it was disabled during these tests. I still recommend using it in live trading. 
 
 Also, be careful trusting backtests using poor-quality data — I’ve seen bots that look amazing in long-term backtests but completely fall apart in real trading. Reliable tick data makes a huge difference.
 Results
 
 Here are the results for each symbol using the settings above:
-GOLD:
+GOLD Results:
     ![image](https://github.com/user-attachments/assets/43bea8d0-3bb8-460b-9f47-6e7eae6b6bf7)
-Gold Results
-BITCOIN:
+BITCOIN Results:
     ![image](https://github.com/user-attachments/assets/c68ce220-5c94-44b6-a26a-9fbae5098cf7)
-Bitcoin Results
-NAS100:
+NAS100 Results:
     ![image](https://github.com/user-attachments/assets/bf329624-4d04-46cc-9c6c-f4f3779dd036)
