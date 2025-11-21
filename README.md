@@ -28,8 +28,6 @@ GOLD:
 ![image](https://github.com/user-attachments/assets/cbb1beaf-f735-42bc-b0b7-1848b3d05b4f)  
 BITCOIN:    
 ![image](https://github.com/user-attachments/assets/620561ea-cbf9-42cf-985b-fc2c5db42de9)  
-NAS100:   
-![image](https://github.com/user-attachments/assets/69913638-bb94-4f5a-91ac-df27ee5a5d03)  
 
 
 Feel free to tweak these — markets change, and different conditions call for different setups.
@@ -57,5 +55,3 @@ GOLD Results:
     ![image](https://github.com/user-attachments/assets/43bea8d0-3bb8-460b-9f47-6e7eae6b6bf7)
 BITCOIN Results:
     ![image](https://github.com/user-attachments/assets/c68ce220-5c94-44b6-a26a-9fbae5098cf7)
-NAS100 Results:
-    ![image](https://github.com/user-attachments/assets/bf329624-4d04-46cc-9c6c-f4f3779dd036)
