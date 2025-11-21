@@ -10,8 +10,6 @@ I built this bot mainly for three symbols that I've found it works best with:
 
     BITCOIN (BTCUSD)
 
-    NAS100 (Nasdaq 100 Index)
-
 You can adjust the settings however you like depending on your trading style or the current market conditions, but I’ve found some settings that work especially well, which I’ll share below.
 Strategy Breakdown
 
@@ -43,7 +41,7 @@ This bot includes a built-in feature to automatically calculate lot size based o
 
     Leverage Used: 1:200 to 1:500
 
-That said, having more than $500 in the account is better in general — especially since instruments like Gold and BTC can be expensive to trade.
+That said, having more than $500 in the account is better in general, especially since instruments like Gold and BTC can be expensive to trade.
 Backtest Info
 
 I ran all the backtests using 100% accurate tick data from 2025-02-05 to 2025-05-05, so the results should be extremely close to real-life performance.
